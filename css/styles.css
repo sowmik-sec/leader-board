@@ -34,3 +34,152 @@ nav a {
   margin: 0;
   margin: 10px 15px;
 }
+
+/* Second section  */
+
+.second-section {
+  margin: 30px 10%;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.second-section h1 {
+  margin: 0 0 40px 0;
+}
+
+/* Player section  */
+
+.player-names {
+  display: flex;
+}
+
+.player-names img {
+  width: 100%;
+  /* height: 100%; */
+  white-space: nowrap;
+}
+
+.player {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.name {
+  /* display: inline-block;
+  clear: both;
+  white-space: nowrap; */
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+/* Blog part  */
+
+#blog {
+  color: #562eff;
+}
+
+#by {
+  color: #9f9f9f;
+}
+
+.blog-item {
+  display: flex;
+  /* padding: 10px 15px; */
+}
+
+.blog-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.blog-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-details {
+  margin-left: 20px;
+}
+
+/* Course section  */
+
+.course-feature {
+  margin: 10px 10%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.course-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.course {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-flow: row;
+  row-gap: 10px;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 0 2px 2px rgb(233, 233, 233);
+  border-radius: 5px;
+}
+
+.course-details img {
+  width: 100%;
+}
+
+.course-mentor {
+  color: red;
+}
+
+.fa-star {
+  color: #ffc014;
+}
+
+.fa-gray {
+  color: #aeaeae;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  /* display: flex;
+  justify-content: space-between; */
+  background-color: rgb(255, 211, 211);
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.clock img {
+  width: 100%;
+  padding-top: 5px;
+  /* height: 100%; */
+}
+
+.rating-clock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.rating-in-points {
+  padding-top: 5px;
+}
+
+.clock-time {
+  clear: both;
+  white-space: nowrap;
+}
